@@ -4,7 +4,13 @@
     <OutputType>Exe</OutputType>
     <ImplicitUsings>true</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
+  <ItemGroup Label="Package References">
+    <PackageReference Include="OpenTK.Graphics" Version="4.7.5" />
+    <PackageReference Include="OpenTK.Windowing.GraphicsLibraryFramework" Version="4.7.5" />
+    <PackageReference Include="StbImageSharp" Version="2.27.13" />
+  </ItemGroup>
   <ItemGroup Label="Project References">
     <ProjectReference Include="..\resources\experiment.Game.Resources.csproj" />
   </ItemGroup>
